@@ -1,0 +1,103 @@
+.navbar {
+    padding: 20px 5px 20px 5px;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar-item {
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.navbar-item li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navbar-item li a {
+    text-decoration: none;
+    color: #445b97
+}
+
+#lang {
+    border: 0
+}
+.contact-btn {
+    color:#ee1e1e;
+    border:1px solid #fafafa;
+    background-color:#fafafa;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+}
+
+.lang-btn-icon {
+    margin-left: 10px;
+} 
+.mobile-bottom-nav-item {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+   .navbar ul a {
+        display: none;
+   } 
+   .right-nav-item {
+        display: none;
+    }
+   .navbar a.icon {
+        float: right;
+        display: block;
+    }
+  
+    .navbar.responsive .mobile-bottom-nav-item {
+        display: inline-block;
+    }
+    #lang {
+        display:block;
+        margin-bottom: 13px;
+    }
+    .contact-btn {
+        margin-top: 10px;
+        background-color:#ffffff;
+    }
+}
+
+@media screen and (max-width: 991px) { 
+    .navbar-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar.responsive .navbar-item a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .right-nav-item-grid {
+        position: absolute;
+    }
+    .navbar.responsive .navbar-item {
+        position: absolute;
+        background-color: #f7f7f7;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .navbar.responsive .navbar-item{
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius: 10px;
+    }
+    .navbar.responsive .navbar-item li {
+        float: none;
+        padding: 8px 5px 8px 5px;
+    }
+    .navbar.responsive .navbar-item a {
+        float:none;
+        display: block;
+        text-align: left;
+    }
+   
+}
