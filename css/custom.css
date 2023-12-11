@@ -116,10 +116,6 @@ footer {
         margin-top: 10px;
         background-color:#ffffff;
     }
-    .navbar-container {
-        padding-right: 0;
-        padding-left: 0;
-    }
     .navbar.responsive .navbar-item a.icon {
         position: absolute;
         right: 0;
@@ -151,6 +147,12 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    .logo {
+        margin-left: 15px;
+    }
+    .navbar a.icon {
+        margin-right: 15px;
+    }
     .footer-menu {
         padding-left: 0;
     }
