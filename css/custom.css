@@ -86,7 +86,10 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.footer-social-media li {
+.footer-social-media li:nth-child(1) {
+    float: left;
+}
+.footer-social-media li:not(:first-child) {
     float: left;
     margin-left: 80px;
 }
@@ -151,7 +154,7 @@ footer {
         margin-left: 15px;
     }
     .navbar a.icon {
-        margin-right: 15px;
+        margin-right: 22px;
     }
     .footer-menu {
         padding-left: 0;
