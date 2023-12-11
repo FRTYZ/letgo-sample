@@ -97,6 +97,59 @@ footer {
     margin-top: 5px;
 }
 
+.first-section-top-title {
+    font-size: 32px;
+    color:#445b97;
+    text-align: center;
+    margin-top: 40px;
+}
+.first-section-top-title p:nth-child(1){
+    margin-bottom: 0;
+}
+.first-section-mid-explain {
+    font-size: 12px;
+    color:#445b97;
+    text-align: center;
+    margin-top: 30px;
+}
+.first-section-mid-explain p:nth-child(1){
+    margin-bottom: 0;
+}
+.first-section-bottom-btn {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.first-section-more-btn {
+    background-color: #ff5e5e;
+    color: #ffffff;
+    border: 1px solid #ff5e5e;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 8px 25px 8px 25px;
+}
+.first-section-get-btn {
+    background-color: #ffffff;
+    color: #445b97;
+    border: 0;
+    font-size: 12px;
+    padding: 8px 25px 8px 25px;
+}
+.first-section {
+    background-image: url('../img/first-shape-shadow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-position: right;
+    padding: 80px;
+}
+.first-section-image-grid {
+    text-align: end;
+}
+.first-section-image {
+    width: 300px;
+}
+
 @media screen and (max-width: 991px) {
    .navbar ul a {
         display: none;
@@ -146,6 +199,9 @@ footer {
         float:none;
         display: block;
         text-align: left;
+    }
+    .first-section-image-grid {
+        text-align: center;
     }
 }
 
