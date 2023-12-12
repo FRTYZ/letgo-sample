@@ -253,6 +253,55 @@ footer {
     padding-right: 10px;
 }
 
+.fourth-section {
+    background-image: url('../img/fourth-section-bg.png');
+    background-repeat: no-repeat;
+    background-size: 48% 99%;
+    background-position: left;
+    padding: 64px 101px 200px 88px; 
+    margin-top: 50px;
+}
+
+.fourth-top-title {
+    font-size: 32px;
+    color: #445b97;
+}
+
+.fourth-section-top-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+.fourth-section-top-icon i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fourth-section-top-icon i:nth-child(1) {
+    color: #a1a7b6;
+    
+}
+.fourth-section-top-icon i:nth-child(2) {
+    color: #445b97;
+    padding-right: 10px;
+}
+.fourth-section-card {
+    height: 350px;
+    min-width: 0;
+    background-color: #6d6d6d87;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.fourth-section-card-bottom-title {
+    text-align: center;
+    color: #ff5e5e;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
 @media screen and (max-width: 991px) {
    .navbar ul a {
         display: none;
@@ -349,6 +398,9 @@ footer {
     .third-section-mid-content article h1 {
         width: 100%;
     }
+    .fourth-section {
+        padding: 19px 101px 104px 84px; 
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -378,5 +430,8 @@ footer {
     .second-section-card{
         height: auto;
         width: 100%;
+    }
+    .fourth-section {
+        padding: 19px 10px 104px 10px; 
     }
 }
