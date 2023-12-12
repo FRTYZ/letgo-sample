@@ -303,6 +303,9 @@ footer {
         display: block;
         text-align: left;
     }
+    .first-section-image {
+        width: 100%;
+    }
     .first-section-image-grid {
         text-align: center;
     }
