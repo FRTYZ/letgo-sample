@@ -302,6 +302,86 @@ footer {
     margin-top: 25px;
 }
 
+.fifth-section {
+    background-image: url('../img/fifth-section-bg.png');
+    background-repeat: no-repeat;
+    background-size: 22% 100%;
+    background-position: right;
+    padding: 0px 160px 200px 88px; 
+   
+}
+
+.fifth-section-left-title h3 {
+    color: #445b97;
+    margin-bottom: 50px;
+}
+.fifth-section-left-title p {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ff5e5e;
+}
+
+.fifth-section-top-icon {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+.fifth-section-top-icon i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fifth-section-top-icon i:nth-child(1) {
+    color: #a1a7b6;
+}
+.fifth-section-top-icon i:nth-child(2) {
+    color: #445b97;
+    padding-right: 10px;
+}
+.fifth-section-card {
+    height: auto;
+    min-width: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.fifth-card-content article h6 {
+    color: #445b97;
+    margin-bottom: 17px;
+}
+
+.fifth-card-content article p:nth-child(3) {
+    color: #445b97;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.fifth-card-content article p:nth-child(2) {
+    color: #a1a7b6;
+    font-size: 12px;
+}
+.fith-card-footer {
+    text-align: end;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#fifth-section-first-card{
+    background-color:red;  
+    color: #ffffff 
+}
+#fifth-section-first-card-content article h6,
+#fifth-section-first-card-content article p 
+{
+    color: #ffffff
+}
+
 @media screen and (max-width: 991px) {
    .navbar ul a {
         display: none;
@@ -401,6 +481,9 @@ footer {
     .fourth-section {
         padding: 19px 101px 104px 84px; 
     }
+    .fifth-section {
+        padding: 153px 15px 100px 15px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -433,5 +516,8 @@ footer {
     }
     .fourth-section {
         padding: 19px 10px 104px 10px; 
+    }
+    .fifth-section {
+        padding: 0px 15px 100px 15px;
     }
 }
