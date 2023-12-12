@@ -258,7 +258,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 48% 99%;
     background-position: left;
-    padding: 64px 101px 200px 88px; 
+    padding: 64px 101px 80px 88px; 
     margin-top: 50px;
 }
 
@@ -307,8 +307,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 22% 100%;
     background-position: right;
-    padding: 0px 160px 200px 88px; 
-   
+    padding: 0px 37px 100px 23px; 
 }
 
 .fifth-section-left-title h3 {
