@@ -157,7 +157,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
-    padding: 64px 101px 272px 88px; 
+    padding: 64px 101px 130px 88px; 
 }
 
 .second-section-title {
@@ -212,6 +212,46 @@ footer {
     line-height: 25px;
 }
 
+.third-section-image {
+    width: 400px;
+}
+.third-section-image-grid {
+    text-align: start;
+    display: flex;
+    position: relative;
+    right: 58px;
+}
+.third-section-top-title p {
+    font-size: 22px;
+    color: #ff5e5e;
+    font-weight: 500;
+}
+.third-section-mid-content article h1 {
+    color: #445b97;
+    width: 300px;
+}
+.third-section-mid-content article p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #6e6e70;
+    margin-bottom: 2px;
+}
+.third-section-bottom-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.third-section-bottom-icon i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.third-section-bottom-icon i:nth-child(1) {
+    color: #a1a7b6;
+    
+}
+.third-section-bottom-icon i:nth-child(2) {
+    color: #445b97;
+    padding-right: 10px;
+}
 
 @media screen and (max-width: 991px) {
    .navbar ul a {
@@ -293,6 +333,18 @@ footer {
     }
     .second-section-card {
         margin-bottom: 40px;
+    }
+    .third-section-image {
+        width: 100%;
+    }
+    .third-section-image-grid {
+        text-align: center;
+        display: block;
+        right: 0;
+        margin-bottom: 65px;
+    }
+    .third-section-mid-content article h1 {
+        width: 100%;
     }
 }
 
