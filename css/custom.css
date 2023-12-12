@@ -433,7 +433,7 @@ footer {
         text-align: left;
     }
     .first-section-image {
-        width: 100%;
+        width: 350px;
     }
     .first-section-image-grid {
         text-align: center;
@@ -467,7 +467,7 @@ footer {
         margin-bottom: 40px;
     }
     .third-section-image {
-        width: 100%;
+        width: 350px;
     }
     .third-section-image-grid {
         text-align: center;
@@ -479,7 +479,7 @@ footer {
         width: 100%;
     }
     .fourth-section {
-        padding: 19px 101px 104px 84px; 
+        padding: 19px 20px 104px 20px; 
     }
     .fifth-section {
         padding: 153px 15px 100px 15px;
