@@ -1,5 +1,9 @@
+.navbar-container {
+    position: relative;
+}
 .navbar {
     padding: 20px 5px 20px 5px;
+    position: absolute;
 }
 
 .navbar .icon {
@@ -141,7 +145,7 @@ footer {
     background-size: contain;
     object-fit: cover;
     background-position: right;
-    padding: 80px;
+    padding: 160px;
 }
 .first-section-image-grid {
     text-align: end;
