@@ -104,8 +104,8 @@ footer {
 .first-section-top-title {
     font-size: 32px;
     color:#445b97;
-    text-align: center;
     margin-top: 40px;
+    font-weight: 600;
 }
 .first-section-top-title p:nth-child(1){
     margin-bottom: 0;
@@ -113,14 +113,12 @@ footer {
 .first-section-mid-explain {
     font-size: 12px;
     color:#445b97;
-    text-align: center;
     margin-top: 30px;
 }
 .first-section-mid-explain p:nth-child(1){
     margin-bottom: 0;
 }
 .first-section-bottom-btn {
-    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -145,7 +143,7 @@ footer {
     background-size: contain;
     object-fit: cover;
     background-position: right;
-    padding: 160px;
+    padding: 160px 0px 50px 0px;
 }
 .first-section-image-grid {
     text-align: end;
@@ -268,10 +266,24 @@ footer {
     .first-section-image-grid {
         text-align: center;
     }
+    .first-section-top-title,
+    .first-section-mid-explain,
+    .first-section-bottom-btn
+    {
+        text-align: center;
+    }
+    .second-section {
+        padding: 64px 0px 150px 0px
+    }
     .second-section-card {
         height: 300px;
     }
+    .second-section-card:nth-child(1) {
+        margin-left: 0;
+    }
     .second-section-title {
+        margin-top: 40px;
+        font-size: 26px;
         text-align: center;
         width: 100%;
     }
@@ -304,5 +316,12 @@ footer {
     }
     .footer-social-media li {
         margin-left: 40px;
+    }
+    .second-section {
+        padding: 64px 0px 0px 0px;
+    }
+    .second-section-card{
+        height: auto;
+        width: 100%;
     }
 }
