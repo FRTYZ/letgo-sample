@@ -213,10 +213,14 @@ footer {
 }
 
 .about-card-section-title {
-    font-size: 32px;
+   margin-bottom: 30px;
+}
+.about-card-section-title p {
+    font-size: 35px;
     font-weight: 500;
     color: #445b97;
-    width: 240px;
+    width: 287px;
+    line-height: 52px;
 }
 
 .about-card-section-get-btn {
@@ -225,43 +229,55 @@ footer {
     border: 1px solid #ff5e5e;
     border-radius: 20px;
     font-size: 12px;
-    padding: 8px 25px 8px 25px;
+    font-weight: 500;
+    padding: 8px 26px 8px 26px;
+}
+.about-card-section-cards {
+    display: contents;
 }
 
 .about-card-section-card {
-    height: 350px;
+    display: flex !important;
+    align-items: stretch;
+    width: 260px;
     min-width: 0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    border-radius: 16px;
     overflow: hidden;
-    padding: 30px;
+    padding: 30px 30px 40px 30px;
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
 .about-card-section-card:nth-child(1){
-    margin-left: 35px;
+    margin-left: 70px;
 }
 
-.about-card-section-card img {
-    width: 60px;
-    height: 60px;
+.about-card-section-right-img {
+    width: 50px;
+    height: 40px;
     margin-bottom: 40px;
 }
+.about-card-section-left-img {
+    width: 43px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
 .card-content article {
     color: #445b97;
 }
 
-.card-content article h4 {
+.card-content article h5 {
     width: 160px;
-    line-height: 35px;
+    line-height: 30px;
     margin-bottom: 20px;
 }
 
 .card-content article p {
     font-size: 12px;
-    line-height: 25px;
+    line-height: 22px;
+    margin-bottom: 0;
 }
 
 .third-section-image {
@@ -600,36 +616,39 @@ footer {
     .about-section-get-btn {
         margin-left: 23px;
     }
+
     .about-card-section {
-        padding: 64px 0px 150px 0px
+        padding: 64px 0px 0px 0px
     }
     .about-card-section-card {
-        height: 300px;
+        width: 100%;
+        margin-left: 30px !important;
+        margin-right: 30px;
+        margin-bottom: 30px;
     }
-    .about-card-section-card:nth-child(1) {
-        margin-left: 0;
-    }
+    
     .about-card-section-title {
         margin-top: 40px;
-        font-size: 26px;
+    }
+    .about-card-section-title p {
+        font-size: 30px;
         text-align: center;
+        line-height: 47px;
         width: 100%;
     }
     .about-card-section-btn {
         text-align: center;
-        margin-bottom: 40px;
-    }
-    .about-card-section-card {
-        margin-bottom: 40px;
+        margin-bottom: 70px;
     }
     .third-section-image {
-        width: 350px;
+        width: 270px;
     }
     .third-section-image-grid {
         text-align: center;
         display: block;
         right: 0;
         margin-bottom: 65px;
+        margin-top: 50px;
     }
     .third-section-mid-content article h1 {
         width: 100%;
