@@ -37,7 +37,7 @@
     display: inline-block;
     padding: 0px 10px 13px 10px;
     text-decoration: none;
-    color: #445b97
+    color: #2E4385
 }
   
 .sample-nav > .nav-links > a:hover {
@@ -149,43 +149,47 @@ footer {
     margin-top: 5px;
 }
 
-.first-section-top-title {
-    font-size: 32px;
-    color:#445b97;
+.about-section-top-title {
     margin-top: 40px;
-    font-weight: 600;
 }
-.first-section-top-title p:nth-child(1){
+.about-section-top-title p{
     margin-bottom: 0;
+    font-size: 60px;
+    color:#2E4385;
+    font-weight: 600;
+    width:400px;
+    line-height: 74px;
 }
-.first-section-mid-explain {
-    font-size: 12px;
-    color:#445b97;
+.about-section-mid-explain {
     margin-top: 30px;
 }
-.first-section-mid-explain p:nth-child(1){
-    margin-bottom: 0;
+.about-section-mid-explain p{
+    font-size: 14px;
+    color: #70787D;
+    width: 430px;
 }
-.first-section-bottom-btn {
+.about-section-bottom-btn {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.first-section-more-btn {
+.about-section-more-btn {
     background-color: #ff5e5e;
     color: #ffffff;
     border: 1px solid #ff5e5e;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 13px;
     padding: 8px 25px;
 }
-.first-section-get-btn {
+.about-section-get-btn {
     background-color: #ffffff;
-    color: #445b97;
+    color: #2E4385;
     border: 0;
     font-size: 12px;
+    font-weight: 600;
+    margin-left: 8px;
     padding: 8px 25px;
 }
-.first-section {
+.about-section {
     background-image: url('../img/first-shape-shadow.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -193,11 +197,11 @@ footer {
     background-position: right;
     padding: 160px 0px 50px 0px;
 }
-.first-section-image-grid {
+.about-section-image-grid {
     text-align: end;
 }
-.first-section-image {
-    width: 300px;
+.about-section-image {
+    width: 520px;
 }
 
 .second-section {
@@ -560,13 +564,16 @@ footer {
         font-size: 16px
     }
     
-    .first-section-image {
-        width: 350px;
+    .about-section-image {
+        width: 270px;
     }
-    .first-section-image-grid {
+    .about-section {
+        padding: 30px 0px 50px 0px;
+    }
+    .about-section-image-grid {
         text-align: center;
     }
-    .first-section-get-btn {
+    .about-section-get-btn {
         background-color: #ffffff;
         color: #445b97;
         border: 1px solid #ffffff;
@@ -574,11 +581,24 @@ footer {
         font-size: 12px;
         padding: 8px 25px;
     }
-    .first-section-top-title,
-    .first-section-mid-explain,
-    .first-section-bottom-btn
+    .about-section-top-title,
+    .about-section-mid-explain,
+    .about-section-bottom-btn
     {
         text-align: center;
+    }
+    .about-section-top-title p,
+    .about-section-mid-explain p
+    {
+        width: auto;
+        text-align: left;
+    }
+    .about-section-top-title p{
+        font-size: 45px;
+        line-height: 57px;
+    }
+    .about-section-get-btn {
+        margin-left: 23px;
     }
     .second-section {
         padding: 64px 0px 150px 0px
