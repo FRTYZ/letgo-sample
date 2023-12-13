@@ -128,14 +128,14 @@ footer {
     border: 1px solid #ff5e5e;
     border-radius: 20px;
     font-size: 12px;
-    padding: 8px 25px 8px 25px;
+    padding: 8px 25px;
 }
 .first-section-get-btn {
     background-color: #ffffff;
     color: #445b97;
     border: 0;
     font-size: 12px;
-    padding: 8px 25px 8px 25px;
+    padding: 8px 25px;
 }
 .first-section {
     background-image: url('../img/first-shape-shadow.png');
@@ -490,6 +490,14 @@ footer {
     }
     .first-section-image-grid {
         text-align: center;
+    }
+    .first-section-get-btn {
+        background-color: #ffffff;
+        color: #445b97;
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+        font-size: 12px;
+        padding: 8px 25px;
     }
     .first-section-top-title,
     .first-section-mid-explain,
