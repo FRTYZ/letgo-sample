@@ -204,7 +204,7 @@ footer {
     width: 520px;
 }
 
-.second-section {
+.about-card-section {
     background-image: url('../img/second-section-bg.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -212,14 +212,14 @@ footer {
     padding: 64px 0px 130px 0px; 
 }
 
-.second-section-title {
+.about-card-section-title {
     font-size: 32px;
     font-weight: 500;
     color: #445b97;
     width: 240px;
 }
 
-.second-section-get-btn {
+.about-card-section-get-btn {
     background-color: #ff5e5e;
     color: #ffffff;
     border: 1px solid #ff5e5e;
@@ -228,7 +228,7 @@ footer {
     padding: 8px 25px 8px 25px;
 }
 
-.second-section-card {
+.about-card-section-card {
     height: 350px;
     min-width: 0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
@@ -240,11 +240,11 @@ footer {
     flex-direction: column;
 }
 
-.second-section-card:nth-child(1){
+.about-card-section-card:nth-child(1){
     margin-left: 35px;
 }
 
-.second-section-card img {
+.about-card-section-card img {
     width: 60px;
     height: 60px;
     margin-bottom: 40px;
@@ -600,26 +600,26 @@ footer {
     .about-section-get-btn {
         margin-left: 23px;
     }
-    .second-section {
+    .about-card-section {
         padding: 64px 0px 150px 0px
     }
-    .second-section-card {
+    .about-card-section-card {
         height: 300px;
     }
-    .second-section-card:nth-child(1) {
+    .about-card-section-card:nth-child(1) {
         margin-left: 0;
     }
-    .second-section-title {
+    .about-card-section-title {
         margin-top: 40px;
         font-size: 26px;
         text-align: center;
         width: 100%;
     }
-    .second-section-btn {
+    .about-card-section-btn {
         text-align: center;
         margin-bottom: 40px;
     }
-    .second-section-card {
+    .about-card-section-card {
         margin-bottom: 40px;
     }
     .third-section-image {
@@ -681,10 +681,10 @@ footer {
     .footer-social-media li {
         margin-left: 40px;
     }
-    .second-section {
+    .about-card-section {
         padding: 64px 0px 0px 0px;
     }
-    .second-section-card{
+    .about-card-section-card{
         height: auto;
         width: 100%;
     }
