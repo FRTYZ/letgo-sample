@@ -14,69 +14,64 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container navbar-container">
-        <div class="row">
-            <nav class="navbar" id="myNavbar">
-                <div class="col-lg-2 col-xl-2 col-md-12 col-sm-2 col-12">
-                    <div class="logo">
-                        <img src="./img/logo.png" />
+    <!-- Header başlangıç -->
+    <header>
+        <nav class="sample-nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+            <div class="nav-title">
+                <img src="./img/logo.png" />
+            </div>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home.</a>
+                <a href="#">About us.</a>
+                <a href="#">Portfolio.</a>
+                <a href="#">Blog.</a>
+                <a href="#">Contact us.</a>
+                <div class="mobile-bottom-nav-lang-item">
+                    <select name="lang" id="lang">
+                        <option value="volvo">EN</option>
+                        <option value="volvo">TR</option>
+                    </select>
+                </div>
+                <div class="mobile-bottom-nav-contact-btn-item">
+                    <button
+                    type="button"
+                    class="contact-btn"
+                >
+                    <div class="contact-btn-content">
+                        <p>Contact Us</p>
+                        <i class="bi bi-arrow-right lang-btn-icon"></i>
                     </div>
+                </button>
                 </div>
-                <div class="col-lg-7 col-xl-7 col-md-12 col-sm-12 col-12">
-                    <ul class="navbar-item">
-                        <li>
-                            <a href="#">Home.</a>
-                        </li>
-                        <li>
-                            <a href="#">About us.</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio.</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog.</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact us.</a>
-                        </li>
-                        <li>
-                            <div class="mobile-bottom-nav-item">
-                                <select name="lang" id="lang">
-                                    <option value="volvo">EN</option>
-                                    <option value="volvo">TR</option>
-                                </select>
-                                <button
-                                    type="button"
-                                    class="contact-btn"
-                                >
-                                    Contact Us
-                                    <i class="bi bi-arrow-right lang-btn-icon"></i>
-                                </button>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-xl-3 col-md-12 col-sm-12 col-12 right-nav-item-grid">
-                    <div class="right-nav-item">
-                        <select name="lang" id="lang">
-                            <option value="volvo">EN</option>
-                            <option value="volvo">TR</option>
-                        </select>
-                        <button
-                            type="button"
-                            class="contact-btn"
-                        >
-                            Contact Us
-                            <i class="bi bi-arrow-right lang-btn-icon"></i>
-                        </button>
+            </div>
+            <div class="right-nav-item">
+                <select name="lang" id="lang">
+                    <option value="volvo">EN</option>
+                    <option value="volvo">TR</option>
+                </select>
+                <button
+                    type="button"
+                    class="contact-btn"
+                >
+                    <div class="contact-btn-content">
+                        <p>Contact Us</p>
+                        <i class="bi bi-arrow-right lang-btn-icon"></i>
                     </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="bi bi-list"></i>
-                    </a>
-                </div>
-            </nav>
-        </div>
-    </div> 
+                </button>
+            </div>
+            <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            </div>
+        </nav>
+    </header>
+    <!-- Header section bitiş -->
     <main>
         <section class="first-section">
             <div class="container">
@@ -344,16 +339,5 @@
             </div>
         </div>
     </footer>
-    
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myNavbar");
-          if (x.className === "navbar") {
-            x.className += " responsive";
-          } else {
-            x.className = "navbar";
-          }
-        }
-    </script>
 </body>
 </html>
