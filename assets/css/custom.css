@@ -334,10 +334,13 @@ footer {
     line-height: 44px;
     margin-bottom: 5px;
 }
-.slider-section-mid-content article h2 {
+.slider-section-mid-content article p:first-child {
     color: #2E4385;
-    width: 240px;
+    width: 250px;
     margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 43px;
 }
 .slider-section-mid-content article p {
     font-size: 13px;
@@ -736,7 +739,7 @@ footer {
         margin-bottom: 65px;
         margin-top: 100px;
     }
-    .slider-section-mid-content article h2 {
+    .slider-section-mid-content article p:first-child {
         width: 100%;
     }
     .slider-section-mid-content article p{
