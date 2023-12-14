@@ -209,7 +209,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
-    padding: 100px 75px 100px 75px;
+    padding: 100px 75px 150px 75px;
 }
 
 .about-card-section-title {
@@ -277,7 +277,8 @@ footer {
 }
 
 .slider-section-image {
-    width: 400px;
+    width: 460px;
+    object-fit: contain;
 }
 .slider-section-image-grid {
     text-align: start;
@@ -286,22 +287,26 @@ footer {
     right: 58px;
 }
 .slider-section-top-title p {
-    font-size: 22px;
+    font-size: 12px;
     color: #ff5e5e;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 5px;
 }
-.slider-section-mid-content article h1 {
+.slider-section-mid-content article h2 {
     color: #445b97;
-    width: 300px;
+    width: 240px;
+    margin-bottom: 40px;
 }
 .slider-section-mid-content article p {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 23px;
     color: #6e6e70;
     margin-bottom: 2px;
+    width: 370px;
 }
 .slider-section-bottom-icon {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .slider-section-bottom-icon i {
@@ -577,7 +582,7 @@ footer {
     }
     
     .about-section-image {
-        width: 270px;
+        width: 100%;
     }
     .about-section {
         padding: 30px 20px 50px 20px;
@@ -617,7 +622,7 @@ footer {
     }
 
     .about-card-section {
-        padding: 64px 25px 0px 25px
+        padding: 64px 25px 70px 25px
     }
     .about-card-section-card {
         width: 100%;
@@ -638,8 +643,12 @@ footer {
         text-align: center;
         margin-bottom: 70px;
     }
+    .slider-section {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
     .slider-section-image {
-        width: 270px;
+        width: 100%;
     }
     .slider-section-image-grid {
         text-align: center;
@@ -650,6 +659,9 @@ footer {
     }
     .slider-section-mid-content article h1 {
         width: 100%;
+    }
+    .slider-section-mid-content article p{
+        width: auto;
     }
     .fourth-section {
         padding: 19px 20px 0px 20px; 
