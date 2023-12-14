@@ -294,7 +294,7 @@ footer {
     margin-bottom: 5px;
 }
 .slider-section-mid-content article h2 {
-    color: #445b97;
+    color: #2E4385;
     width: 240px;
     margin-bottom: 40px;
 }
@@ -322,7 +322,7 @@ footer {
     padding-right: 10px;
 }
 
-.fourth-section {
+.cards-section {
     background-image: url('../img/fourth-section-bg.png');
     background-repeat: no-repeat;
     background-size: 48% 99%;
@@ -331,29 +331,31 @@ footer {
     margin-top: 50px;
 }
 
-.fourth-top-title {
-    font-size: 32px;
+.cards-top-title {
+    font-size: 34px;
+    font-weight: 600;
     color: #445b97;
+    width: 350px;
 }
 
-.fourth-section-top-icon {
+.cards-section-top-icon {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: end;
 }
-.fourth-section-top-icon i {
+.cards-section-top-icon i {
     font-size: 20px;
     margin-right: 10px;
 }
-.fourth-section-top-icon i:nth-child(1) {
+.cards-section-top-icon i:nth-child(1) {
     color: #a1a7b6;
     
 }
-.fourth-section-top-icon i:nth-child(2) {
+.cards-section-top-icon i:nth-child(2) {
     color: #445b97;
     padding-right: 10px;
 }
-.fourth-section-card {
+.cards-section-card {
     height: 350px;
     min-width: 0;
     background-color: #6d6d6d87;
@@ -364,7 +366,7 @@ footer {
     flex-direction: column;
     margin-bottom: 25px;
 }
-.fourth-section-card-bottom-title {
+.cards-section-card-bottom-title {
     text-align: center;
     color: #ff5e5e;
     font-weight: 600;
@@ -663,7 +665,7 @@ footer {
     .slider-section-mid-content article p{
         width: auto;
     }
-    .fourth-section {
+    .cards-section {
         padding: 19px 20px 0px 20px; 
     }
     .fifth-section {
@@ -714,7 +716,7 @@ footer {
         height: auto;
         width: 100%;
     }
-    .fourth-section {
+    .cards-section {
         padding: 19px 10px 104px 10px; 
     }
     .fifth-section {
