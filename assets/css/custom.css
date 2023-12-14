@@ -650,7 +650,7 @@ footer {
     .about-section-image-grid {
         text-align: center;
         display: inline-block;
-        position: relative;
+        position: static;
         right: 0;
     }
     .about-section-get-btn {
