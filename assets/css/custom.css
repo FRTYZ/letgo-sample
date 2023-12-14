@@ -327,10 +327,13 @@ footer {
     background-repeat: no-repeat;
     background-size: 48% 99%;
     background-position: left;
-    padding: 64px 0px 80px 0px; 
+    padding: 64px 0px 120px 0px; 
     margin-top: 50px;
 }
-
+.cards-section-top-content {
+    display: flex;
+    margin-bottom: 50px
+}
 .cards-top-title {
     font-size: 34px;
     font-weight: 600;
@@ -339,37 +342,39 @@ footer {
 }
 
 .cards-section-top-icon {
-    margin-top: 20px;
+    margin-top: 10.7%;
     margin-bottom: 20px;
     text-align: end;
 }
 .cards-section-top-icon i {
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 24px;
 }
 .cards-section-top-icon i:nth-child(1) {
     color: #a1a7b6;
-    
 }
 .cards-section-top-icon i:nth-child(2) {
     color: #445b97;
-    padding-right: 10px;
+    padding-left: 15px;
 }
 .cards-section-card {
     height: 350px;
+    display:flex;
+    align-items:stretch;
     min-width: 0;
     background-color: #6d6d6d87;
     overflow: hidden;
     padding: 30px;
     position: relative;
-    display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 .cards-section-card-bottom-title {
+    display: block;
+    text-decoration: none;
     text-align: center;
     color: #ff5e5e;
     font-weight: 600;
+    font-size: 14px;
     margin-top: 25px;
 }
 
@@ -644,6 +649,17 @@ footer {
     .about-card-section-btn {
         text-align: center;
         margin-bottom: 70px;
+    }
+    .cards-section-top-content {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .cards-top-title {
+        width: auto;
+        font-size: 29px;
+    }
+    .cards-section-top-icon {
+        margin-top: 3.7%;
     }
     .slider-section {
         padding-right: 25px;
