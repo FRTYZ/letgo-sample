@@ -321,7 +321,7 @@ footer {
 .slider-section-image-grid {
     text-align: start;
     display: flex;
-    position: relative;
+    position: static;
     right: 58px;
 }
 .slider-section-top-title p {
@@ -725,9 +725,6 @@ footer {
         padding-right: 25px;
         padding-left: 25px;
     }
-    .slider-section-image {
-        width: 470;
-    }
     .slider-section-image-grid {
         text-align: center;
         display: block;
@@ -778,6 +775,7 @@ footer {
     }
     .footer-menu {
         padding-left: 0;
+        margin-top: 25px;
     }
     .footer-menu li {
         float: none;
@@ -787,15 +785,33 @@ footer {
     .footer-social-media {
         padding-left: 0;
     }
+    .footer-headline {
+        font-size: 25px;
+    }
+    .footer-brand {
+        margin-bottom: 13px;
+    }
   
     .about-card-section-card{
         height: auto;
         width: 100%;
     }
+    .about-section-top-title p {
+        font-size: 25px;
+    }
     .about-section-image {
         width: 100%
     }
+    .about-card-section-title p {
+        font-size: 25px;
+    }
     .slider-section-image {
         width: 100%;
+    }
+    .cards-section-top-content {
+        margin-bottom: 12px;
+    }
+    .cards-top-title {
+        font-size: 25px;
     }
 }
