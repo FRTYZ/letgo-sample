@@ -472,21 +472,23 @@ footer {
     color: #FD3644;
 }
 
-.contacts-section article h3 {
+.contacts-article {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.contacts-article h1 {
     color: #445b97;
     margin-bottom: 17px;
     font-weight: 600;
 }
 
-.contacts-section article p {
+.contacts-article p {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     color: #ff5e5e;
-}
-
-.contacts-article {
-    margin-left: 10px;
+    margin-bottom: 14px
 }
 
 .sample-inputs {
@@ -505,23 +507,25 @@ footer {
     border: 1px solid #ffffff;
     border-radius: 0.375rem;
     margin-bottom: 30px;
-    padding: 15px 10px 15px 30px;
+    padding: 15px 10px 20px 20px
 }
 .sample-inputs::placeholder{
     color:#445b97;
+    font-weight: 500;
 }
 .contacts-section-btn-div {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-top: 20px;
 }
 .contacts-section-btn {
-     background-color: #ff2c2c;
+    background-color: #ff2c2c;
     color: #ffffff;
     border: 1px solid #ff2c2c;
     border-radius: 20px;
-    font-size: 12px;
-    padding: 10px 35px 10px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
 }
 
 @media screen and (max-width: 991px) {
