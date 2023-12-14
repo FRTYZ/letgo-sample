@@ -41,14 +41,14 @@
 
 .navbar-content .nav-links > a {
     display: inline-block;
-    padding: 0px 10px 13px 10px;
+    padding: 0px 25px 13px 10px;
     text-decoration: none;
     color: #2E4385
 }
 
 
 .nav-links > a:first-child {
-    padding: 0px 10px 13px 0px;
+    padding: 0px 25px 13px 0px;
 }
   
 
