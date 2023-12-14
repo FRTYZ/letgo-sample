@@ -31,30 +31,34 @@
     display: none;
 }
   
-.sample-nav > .nav-links {
+.navbar-content .nav-links {
     display: inline;
     float: inline-start;
     font-size: 12px;
     font-weight: 600;
     margin-top: 50px;
-    margin-left: 47px;
 }
-  
-.sample-nav > .nav-links > a {
+
+.navbar-content .nav-links > a {
     display: inline-block;
     padding: 0px 10px 13px 10px;
     text-decoration: none;
     color: #2E4385
 }
+
+
+.nav-links > a:first-child {
+    padding: 0px 10px 13px 0px;
+}
   
-.sample-nav > .nav-links > a:hover {
+
+.nav-links > a:hover {
     color: #ff5e5e;
 }
 
 .right-nav-item {
     float: right;
     margin-top: 40px;
-    margin-right: 17%;
 }
 
 #lang {
@@ -568,16 +572,16 @@ footer {
     .right-nav-item {
         display: none;
     }
-    .sample-nav > .nav-btn {
+    .navbar-content .nav-btn {
         display: inline-block;
         position: absolute;
         right: 18px;
         top: 0px;
     }
-    .sample-nav > .nav-header > .nav-title {
+    .sample-nav .nav-header > .nav-title {
         margin: 5px 20px;
     }
-    .sample-nav > .nav-btn > label {
+    .navbar-content .nav-btn > label {
         display: inline-block;
         width: 46px;
         height: 41px;
@@ -585,17 +589,17 @@ footer {
         margin-top: 4px;
         border: 1px solid #635d5d;
     }
-    .sample-nav > .nav-btn > label:hover, .sample-nav  #nav-check:checked ~ .nav-btn > label {
+    .navbar-content .nav-btn > label:hover, .sample-nav  #nav-check:checked ~ .nav-btn > label {
         background-color: #dbdbdb
        
     }
-    .sample-nav > .nav-btn > label > span {
+    .navbar-content .nav-btn > label > span {
         display: block;
         width: 21px;
         height: 7px;
         border-top: 2px solid #635d5d;
     }
-    .sample-nav > .nav-links {
+    .navbar-content .nav-links {
         position: absolute;
         display: block;
         width: 100%;
@@ -610,17 +614,17 @@ footer {
         margin-top: 0px;
         margin-left: 0px;
     }
-    .sample-nav > .nav-links > a {
+    .navbar-content .nav-links > a {
         display: block;
         width: 100%;
         font-size: 20px;
         text-align: center;
         padding: 0px 10px 35px 10px;
     }
-    .sample-nav > #nav-check:not(:checked) ~ .nav-links {
+    #nav-check:not(:checked) ~ .navbar-content .nav-links {
         height: 0px;
     }
-    .sample-nav > #nav-check:checked ~ .nav-links {
+    #nav-check:checked ~ .navbar-content .nav-links {
         height: calc(100vh - 50px);
         overflow-y: auto;
         padding-top: 43px;
