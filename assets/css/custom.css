@@ -154,7 +154,7 @@ footer {
 }
 .about-section-top-title p{
     margin-bottom: 0;
-    font-size: 60px;
+    font-size: 57px;
     color:#2E4385;
     font-weight: 600;
     width:400px;
@@ -184,7 +184,7 @@ footer {
     background-color: #ffffff;
     color: #2E4385;
     border: 0;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     margin-left: 8px;
     padding: 8px 25px;
@@ -209,7 +209,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
-    padding: 64px 0px 130px 0px; 
+    padding: 100px 75px 100px 75px;
 }
 
 .about-card-section-title {
@@ -232,12 +232,13 @@ footer {
     font-weight: 500;
     padding: 8px 26px 8px 26px;
 }
+
 .about-card-section-cards {
-    display: contents;
+    display: flex;
 }
 
 .about-card-section-card {
-    display: flex !important;
+    display: flex;
     align-items: stretch;
     width: 260px;
     min-width: 0;
@@ -245,12 +246,7 @@ footer {
     overflow: hidden;
     padding: 30px 30px 40px 30px;
     position: relative;
-    display: flex;
     flex-direction: column;
-}
-
-.about-card-section-card:nth-child(1){
-    margin-left: 70px;
 }
 
 .about-card-section-right-img {
@@ -584,7 +580,7 @@ footer {
         width: 270px;
     }
     .about-section {
-        padding: 30px 0px 50px 0px;
+        padding: 30px 20px 50px 20px;
     }
     .about-section-image-grid {
         text-align: center;
@@ -610,20 +606,22 @@ footer {
         text-align: left;
     }
     .about-section-top-title p{
-        font-size: 45px;
+        font-size: 43px;
         line-height: 57px;
     }
     .about-section-get-btn {
         margin-left: 23px;
     }
+    .about-section-more-btn {
+        font-size: 12px;
+    }
 
     .about-card-section {
-        padding: 64px 0px 0px 0px
+        padding: 64px 25px 0px 25px
     }
     .about-card-section-card {
         width: 100%;
-        margin-left: 30px !important;
-        margin-right: 30px;
+        margin-left: 0px !important;
         margin-bottom: 30px;
     }
     
@@ -699,9 +697,6 @@ footer {
     }
     .footer-social-media li {
         margin-left: 40px;
-    }
-    .about-card-section {
-        padding: 64px 0px 0px 0px;
     }
     .about-card-section-card{
         height: auto;
